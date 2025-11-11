@@ -1,0 +1,4 @@
+protobuf
+google-cloud-bigquery==3.11.4
+pandas==2.2.0
+db-dtypes==1.2.0
