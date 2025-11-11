@@ -13,7 +13,7 @@ ETL pipeline to load Electric Vehicle charging data into BigQuery.
 
 ### 1. Clone the repository
 \`\`\`
-git clone <your-repo-url>
+git clone https://github.com/Zach-Adolphsen/ETLPipeline_CSVtoBigQuery.git
 cd ETL_Pipline_CSVtoBigQuery
 \`\`\`
 
@@ -48,13 +48,22 @@ client = bigquery.Client(project='YOUR_PROJECT_ID')
 python main.py
 \`\`\`
 
-## Project Structure
-\`\`\`
-ETL_Pipline_CSVtoBigQuery/
-├── credentials/           # (git-ignored) Place your BigQuery credentials here
-├── data/                  # Data files
-├── main.py               # Main ETL script
-├── requirements.txt      # Python dependencies
-├── .gitignore           # Git ignore file
-└── README.md            # This file
-\`\`\`
+[//]: # (## Project Structure)
+
+[//]: # (\`\`\`)
+
+[//]: # (ETL_Pipline_CSVtoBigQuery/)
+
+[//]: # (├── credentials/           # &#40;git-ignored&#41; Place your BigQuery credentials here)
+
+[//]: # (├── data/                  # Data files)
+
+[//]: # (├── main.py               # Main ETL script)
+
+[//]: # (├── requirements.txt      # Python dependencies)
+
+[//]: # (├── .gitignore           # Git ignore file)
+
+[//]: # (└── README.md            # This file)
+
+[//]: # (\`\`\`)
