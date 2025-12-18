@@ -18,12 +18,12 @@ else:
     exit(1)
 
 # Configuration - users should modify this
-PROJECT_ID = 'etl-pipline-project-477623'  # TODO: Update with your project ID
+PROJECT_ID = 'etl-pipline-project-000000'  # Update with your project ID
 DATASET_ID = 'main'
 TABLE_ID = 'cleaned_data_table'
 
 try:
-    # Initialize the client (will automatically use the environment variable)
+    # Initialize the client
     client = bigquery.Client(project=PROJECT_ID)
     # Test connection
     print(f"Successfully connected to project: {client.project}")
